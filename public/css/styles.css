@@ -1,0 +1,136 @@
+html, body{
+    height: 100%;
+    padding:0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/mongoose.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: -20;
+}
+
+.grad{
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+}
+
+header {
+    text-align: center;
+    color: white;
+    padding-top: 7%;
+    width: 70%;
+    margin: auto;
+}
+
+header h5{
+    line-height: 1.5em;
+}
+
+form{
+    width: 50%;
+    margin: auto;
+    margin-top: 3%;
+    /* border: 2px solid #f8f8f8; */
+    padding: 30px;
+}
+
+.trans{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+form h4, form label{
+    color: white !important;
+}
+
+form h4{
+    text-align:center;
+}
+
+.trans:focus{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    outline: none !important;
+    outline-width: 0;
+}
+
+.trans::-webkit-input-placeholder{
+    color: white;
+}
+
+.submit-btn{
+    width: 100%;
+    background-color: #0b300198;
+    color: white;
+    border: 2px solid white;
+}
+
+.submit-btn:focus{
+    outline: none;
+}
+
+
+/* Subscribers page */
+.subscribers{
+    border: 2px solid white;
+    color: white;
+    width: 50%;
+    margin: auto;
+    padding: 15px;
+    height: 70%;
+    overflow-y: scroll;
+}
+
+.subscribers ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.subscribers ul li{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(150, 150, 150, 0.5);
+}
+
+header button{
+    background-color: #0b300198;
+    width: 30%;
+    padding: 10px 0;
+}
+
+header button :focus{
+    outline: none !important;
+}
+
+
+header button a{
+    color: white;
+    width: 30%;
+}
+
+header button a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.thankyou-text{
+    margin-bottom: 70px;
+}

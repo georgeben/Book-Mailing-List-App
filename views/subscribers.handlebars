@@ -1,0 +1,18 @@
+<header>
+    <h1>Our subscribers</h1>
+</header>
+
+<div class="subscribers">
+    {{#if present}}
+    <ul>
+        {{#each subscribers}}
+            <li>
+                <p>{{this.name}}</p>
+                <p>{{this.email}}</p>
+            </li>
+        {{/each}}
+    </ul>
+    {{else}}
+        <h1>There are no subscribers yet, be the first!</h1>
+    {{/if}}
+</div>
