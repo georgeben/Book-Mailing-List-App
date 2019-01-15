@@ -10,3 +10,5 @@ A web app where user's can subscribe to a book mailing list built with Node.js, 
 - Run `npm start` to start the server
 - Open your browser and visit `localhost:3000`
 - There you have it :thumbsup:
+
+View it live at: https://mongoosejungle.herokuapp.com/
