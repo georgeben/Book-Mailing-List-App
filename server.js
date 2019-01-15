@@ -4,7 +4,8 @@ const app = require('./app');
 const mongoose = require('mongoose');
 
 //Connection to database
-mongoose.connect(process.env.DATABASE, {useMongoClient:true});
+console.log(process.env.DATABASE);
+mongoose.connect(process.env.DATABASE, {useNewUrlParser: true});
 mongoose.Promise = global.Promise;
 const dbConnection = mongoose.connection;
 
